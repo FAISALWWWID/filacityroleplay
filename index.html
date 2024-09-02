@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEALERSHIP Fila City Roleplay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>DEALERSHIP Fila City</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-button">HOME</a></li>
+                <li><a href="shop.html" class="nav-button">SHOP</a></li>
+                <li><a href="ask.html" class="nav-button">ASK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Selamat datang di DEALERSHIP Fila City Roleplay!</h2>
+            <p>Kami menyediakan berbagai produk Car berkualitas. Jelajahi produk kami dan temukan apa yang Anda inginkan.</p>
+        </section>
+
+        <section class="products-section">
+            <h2>Produk teratas kami</h2>
+            <div class="products">
+                <div class="product-item">
+                    <img src="foto/bulet.jpg" alt="Produk 1">
+                    <h3>Bulet</h3>
+                    <p>Rp 70.000</p>
+                </div>
+                <div class="product-item">
+                    <img src="foto/turismo.jpg" alt="Produk 2">
+                    <h3>Turismo</h3>
+                    <p>Rp 80.000</p>
+                </div>
+                <div class="product-item">
+                    <img src="foto/maverick.jpg" alt="Produk 3">
+                    <h3>Maverick</h3>
+                    <p>Rp 100.000</p>
+                </div>
+                <div class="product-item">
+                    <img src="foto/kart.jpg" alt="Produk 4">
+                    <h3>Gokart</h3>
+                    <p>Rp 70.000</p>
+                </div>
+                <!-- Tambahkan item produk lainnya sesuai kebutuhan -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <P>&COPY;BY:FILA CITY ROLEPLAY&Cap;</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Pilih Metode Pembayaran</h2>
+            <p>Silakan pilih metode pembayaran yang ingin Anda gunakan untuk membeli produk.</p>
+            <button onclick="sendWhatsApp()">WhatsApp</button>
+        </div>
+    </div>
+
+    <div id="fps-display">FPS: 100</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
